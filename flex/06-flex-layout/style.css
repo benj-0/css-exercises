@@ -20,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -30,15 +31,13 @@ input {
   margin-bottom: 16px;
 }
 
-.header {
-  background-color: rgb(106, 199, 199);
+.header {;
   flex-grow: 0;
   display: flex;
 }
 
 .content {
   flex-grow: 1;
-  background-color: rgb(173, 173, 173);
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -48,7 +47,30 @@ input {
 }
 
 .footer {
-  background-color: rgb(201, 201, 110);
+  background-color: #eeeeee;
   flex-grow: 0;
   display: flex;
+}
+
+.left-links {
+  flex: 1 0 0;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 15px 0px;
+  margin: 0px 15px;
+}
+
+.right-links {
+  flex: 0 0 0;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 15px 0px;
+  margin: 0px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
 }
